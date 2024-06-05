@@ -37,26 +37,27 @@ const HomeScreen = () => {
                 </h1>
             </div>
             <div className='home__project' data-aos="fade-in" data-aos-duration="1100">
+                <section className='section__project'>
+                    <h1>Mi portafolio</h1>
+                    <p>
+                        En los siguientes cuadros, se mostará todo mi progeso
+                        y puesto a prueba los conocimientos que he adquirido
+                    </p>
+                    <div className='card__container .bg-black.bg-gradient'>
+                        {/* cards project */}
+                        {project.map((pjt, id) =>
+                            <div className='card card-body bg-dark' key={id}>
+                                <img src={pjt.img} alt={pjt.name} className='card__img card-img-top' />
+                                <h1>
+                                    {pjt.name}
+                                </h1>
+                                <p className='card-text'>{pjt.description}</p>
+                                <button className='btn btn-primary align-self-end' onClick={() => alert('ola')}>Click</button>
+                            </div>
+                        )}
 
-                <h1>Mi portafolio</h1>
-                <p>
-                    En los siguientes cuadros, se mostará todo mi progeso
-                    y puesto a prueba los conocimientos que he adquirido
-                </p>
-                <div className='card__container'>
-                    {/* cards project */}
-                    {project.map((pjt) =>
-                        <div className='card card-body bg-dark'>
-                            <img src={pjt.img} alt={pjt.name} className='card__img card-img-top' />
-                            <h1>
-                                {pjt.name}
-                            </h1>
-                            <p className='card-text'>{pjt.description}</p>
-                            <button className='btn btn-primary align-self-end' onClick={() => alert('ola')}>Click</button>
-                        </div>
-                    )}
-
-                </div>
+                    </div>
+                </section>
             </div>
         </main >
     )
