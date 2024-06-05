@@ -1,0 +1,20 @@
+{
+"proyectos":[{
+            "name":"Estacion Oceanica",
+            "url":"https://pedrobenites9.github.io/estacionOceanica-pedroBenites/",
+            "img":"https://i.ibb.co/Bw8xmkf/museo.jpg",
+            "description": "Estacion Oceanica, una lugar educativo e interactivo donde aprendemos todo acerca de nuestros mares"
+        },
+        {
+            "name":"Portafolio",
+            "url":"https://pedrobenites9.github.io/estacionOceanica-pedroBenites/",
+            "img":"https://i.ibb.co/Bw8xmkf/museo.jpg",
+            "description":"Uno de mis primeros portafolio desarrollado con react"
+        },
+        {
+            "name":"Que manija",
+            "url":"https://github.com/PedroBenites9/QueManija",
+            "img":"https://i.ibb.co/Bw8xmkf/museo.jpg",
+            "description": "Una pagina shopify que ofrece indumentaria de indole urbana"
+        }]
+}

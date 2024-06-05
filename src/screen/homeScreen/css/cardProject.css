@@ -1,0 +1,16 @@
+.card__container {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    margin: 0 50px;
+}
+
+.card-body {
+    width: 400px;
+}
+
+.card__img {
+    width: 100%;
+}

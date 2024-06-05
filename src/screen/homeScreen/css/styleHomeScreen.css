@@ -1,0 +1,51 @@
+.container {
+    width: 100%;
+}
+
+.home__title>h1 {
+    font-weight: 900;
+    line-height: 5rem;
+}
+
+.particles {
+    position: relative;
+    z-index: -1;
+}
+
+.home__title {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.text__home {
+    position: relative;
+    top: 200px;
+    left: 150px;
+    width: 800px;
+}
+
+.text-home {
+    color: #6ecfff;
+    font-weight: 800;
+}
+
+.typewriter {
+    display: flex;
+    gap: 10px;
+
+}
+
+.home__project {
+    background-color: #363636;
+    color: #f0ffff;
+    height: 100%;
+    position: static;
+}
+
+.home__project>h1 {
+    text-align: center;
+    font-weight: 900;
+    padding-top: 30px;
+}
