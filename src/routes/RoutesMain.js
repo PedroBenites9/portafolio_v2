@@ -4,16 +4,14 @@ import HomeScreen from '../screen/homeScreen/HomeScreen'
 import ProjectScreen from '../screen/projectScreen/ProjectScreen'
 import AboutMe from '../screen/aboutMe/AboutMe'
 import ContactScreen from '../screen/contactScreen/ContactScreen'
-
+import './routesStyle.css'
 
 
 const RoutesMain = () => {
 
-
-
     return (
-        <   >
-            <div className='container d-flex column-gap-3'>
+        <>
+            <div className='container-fluid d-flex column-gap-3 nav__container'>
 
                 <Link to="/" className='text-decoration-none'>Home</Link>
                 <Link to="/contact" className='text-decoration-none'>contact</Link>
@@ -32,7 +30,7 @@ const RoutesMain = () => {
             <Routes>
                 <Route path='/portafolio' element={<ProjectScreen />} />
             </Routes>
-        </  >
+        </>
     );
 }
 

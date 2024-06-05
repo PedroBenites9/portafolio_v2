@@ -1,0 +1,10 @@
+a {
+    color: white;
+}
+
+.nav__container {
+    background: rgba(3, 3, 3, 0.7);
+    padding: 1rem;
+    position: fixed;
+    z-index: 1;
+}
